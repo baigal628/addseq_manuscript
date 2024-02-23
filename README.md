@@ -36,6 +36,9 @@ nanopolish eventalign
     --progress \
     --print-read-names > eventalign/chrom_pass.sorted.eventalign.txt
 ```
+# Analyze Add-seq data with statistical analysis
+
+All code for this is in scripts/addseqpaperfigscode.py
 
 # Analyze Add-seq data with deep learning method
 
