@@ -7,7 +7,7 @@ conda install -f addseq.yml
 ## 0. Data Preprocessing
 ### 00. Basecalling and reads mapping
 ```{bash}
-Guppy --
+guppy_basecaller -i ~/data/fast5 -s ~/data/basecalled --bam_out -c ~/tools/guppy_basecaller_4.2.0/data/res_dna_r941_min_modbases-all-context_v001.cfg -x 'cuda:0' -r
 ```
 ```{bash}
 minimap2 -x map-ont --d ref/sacCer3-ont.mmi ref/sacCer3.fa
